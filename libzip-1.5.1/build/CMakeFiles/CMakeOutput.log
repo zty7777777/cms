@@ -1,0 +1,779 @@
+The system is: Linux - 3.10.0-514.26.2.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/soft/libzip-1.5.1/build/CMakeFiles/3.6.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_49207/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_49207.dir/build.make CMakeFiles/cmTC_49207.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49207.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_49207.dir/testCCompiler.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_49207
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49207.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_49207.dir/testCCompiler.c.o  -o cmTC_49207 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9549b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9549b.dir/build.make CMakeFiles/cmTC_9549b.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_9549b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9549b.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o  -o cmTC_9549b -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9549b' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9549b /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_9549b/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_9549b.dir/build.make CMakeFiles/cmTC_9549b.dir/build]
+  ignore line: [gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_9549b]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9549b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o  -o cmTC_9549b -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9549b' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9549b /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9549b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_9549b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a5673/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a5673.dir/build.make CMakeFiles/cmTC_a5673.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5673.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_a5673.dir/feature_tests.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a5673
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5673.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a5673.dir/feature_tests.c.o  -o cmTC_a5673 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_36ace/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_36ace.dir/build.make CMakeFiles/cmTC_36ace.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36ace.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_36ace.dir/feature_tests.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_36ace
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36ace.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_36ace.dir/feature_tests.c.o  -o cmTC_36ace -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8496f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8496f.dir/build.make CMakeFiles/cmTC_8496f.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8496f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_8496f.dir/feature_tests.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8496f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8496f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8496f.dir/feature_tests.c.o  -o cmTC_8496f -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the function fileno exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_38423/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_38423.dir/build.make CMakeFiles/cmTC_38423.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38423.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=fileno   -o CMakeFiles/cmTC_38423.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38423
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38423.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fileno    CMakeFiles/cmTC_38423.dir/CheckFunctionExists.c.o  -o cmTC_38423 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ab09b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ab09b.dir/build.make CMakeFiles/cmTC_ab09b.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab09b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_ab09b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ab09b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab09b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTC_ab09b.dir/CheckFunctionExists.c.o  -o cmTC_ab09b -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4f71c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4f71c.dir/build.make CMakeFiles/cmTC_4f71c.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f71c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTC_4f71c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f71c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f71c.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftello    CMakeFiles/cmTC_4f71c.dir/CheckFunctionExists.c.o  -o cmTC_4f71c -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_eb5a0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_eb5a0.dir/build.make CMakeFiles/cmTC_eb5a0.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb5a0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=open   -o CMakeFiles/cmTC_eb5a0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb5a0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb5a0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open    CMakeFiles/cmTC_eb5a0.dir/CheckFunctionExists.c.o  -o cmTC_eb5a0 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7c5ad/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7c5ad.dir/build.make CMakeFiles/cmTC_7c5ad.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c5ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTC_7c5ad.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c5ad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c5ad.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTC_7c5ad.dir/CheckFunctionExists.c.o  -o cmTC_7c5ad -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1f14e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1f14e.dir/build.make CMakeFiles/cmTC_1f14e.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f14e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_1f14e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’ [enabled by default]
+/usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_1f14e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f14e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTC_1f14e.dir/CheckFunctionExists.c.o  -o cmTC_1f14e -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e6adc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e6adc.dir/build.make CMakeFiles/cmTC_e6adc.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6adc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_e6adc.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [enabled by default]
+/usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_e6adc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6adc.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp    CMakeFiles/cmTC_e6adc.dir/CheckFunctionExists.c.o  -o cmTC_e6adc -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8f952/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8f952.dir/build.make CMakeFiles/cmTC_8f952.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f952.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTC_8f952.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’ [enabled by default]
+/usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_8f952
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f952.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup    CMakeFiles/cmTC_8f952.dir/CheckFunctionExists.c.o  -o cmTC_8f952 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e66b7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e66b7.dir/build.make CMakeFiles/cmTC_e66b7.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e66b7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_e66b7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e66b7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e66b7.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTC_e66b7.dir/CheckFunctionExists.c.o  -o cmTC_e66b7 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ab0a9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ab0a9.dir/build.make CMakeFiles/cmTC_ab0a9.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab0a9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_ab0a9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ab0a9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab0a9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTC_ab0a9.dir/CheckFunctionExists.c.o  -o cmTC_ab0a9 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;sys/stat.h;fts.h exist passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_20428/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_20428.dir/build.make CMakeFiles/cmTC_20428.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20428.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_20428.dir/CheckIncludeFiles.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_20428
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20428.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_20428.dir/CheckIncludeFiles.c.o  -o cmTC_20428 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9bd7d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9bd7d.dir/build.make CMakeFiles/cmTC_9bd7d.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bd7d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9bd7d.dir/CheckIncludeFiles.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9bd7d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bd7d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9bd7d.dir/CheckIncludeFiles.c.o  -o cmTC_9bd7d -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_05e59/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_05e59.dir/build.make CMakeFiles/cmTC_05e59.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05e59.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_05e59.dir/CheckIncludeFiles.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_05e59
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05e59.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_05e59.dir/CheckIncludeFiles.c.o  -o cmTC_05e59 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_65512/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_65512.dir/build.make CMakeFiles/cmTC_65512.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65512.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_65512.dir/CheckIncludeFiles.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_65512
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65512.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_65512.dir/CheckIncludeFiles.c.o  -o cmTC_65512 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ae287/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ae287.dir/build.make CMakeFiles/cmTC_ae287.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae287.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ae287.dir/CheckIncludeFiles.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ae287
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae287.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ae287.dir/CheckIncludeFiles.c.o  -o cmTC_ae287 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_71c61/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_71c61.dir/build.make CMakeFiles/cmTC_71c61.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71c61.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_71c61.dir/CheckIncludeFiles.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_71c61
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71c61.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_71c61.dir/CheckIncludeFiles.c.o  -o cmTC_71c61 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cd5ba/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd5ba.dir/build.make CMakeFiles/cmTC_cd5ba.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd5ba.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_cd5ba.dir/CheckIncludeFiles.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_cd5ba
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd5ba.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_cd5ba.dir/CheckIncludeFiles.c.o  -o cmTC_cd5ba -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c63fb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c63fb.dir/build.make CMakeFiles/cmTC_c63fb.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c63fb.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c63fb.dir/CheckIncludeFile.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c63fb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c63fb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c63fb.dir/CheckIncludeFile.c.o  -o cmTC_c63fb -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_18a73/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_18a73.dir/build.make CMakeFiles/cmTC_18a73.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18a73.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_18a73.dir/CheckIncludeFile.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_18a73
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18a73.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_18a73.dir/CheckIncludeFile.c.o  -o cmTC_18a73 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f359e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f359e.dir/build.make CMakeFiles/cmTC_f359e.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f359e.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f359e.dir/CheckIncludeFile.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f359e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f359e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f359e.dir/CheckIncludeFile.c.o  -o cmTC_f359e -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_03100/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_03100.dir/build.make CMakeFiles/cmTC_03100.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03100.dir/INT8_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_03100.dir/INT8_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/INT8_T_LIBZIP.c
+Linking C executable cmTC_03100
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03100.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_03100.dir/INT8_T_LIBZIP.c.o  -o cmTC_03100 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fb381/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fb381.dir/build.make CMakeFiles/cmTC_fb381.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb381.dir/UINT8_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fb381.dir/UINT8_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/UINT8_T_LIBZIP.c
+Linking C executable cmTC_fb381
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb381.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fb381.dir/UINT8_T_LIBZIP.c.o  -o cmTC_fb381 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4b8cc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4b8cc.dir/build.make CMakeFiles/cmTC_4b8cc.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b8cc.dir/INT16_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_4b8cc.dir/INT16_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/INT16_T_LIBZIP.c
+Linking C executable cmTC_4b8cc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b8cc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4b8cc.dir/INT16_T_LIBZIP.c.o  -o cmTC_4b8cc -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f6dca/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f6dca.dir/build.make CMakeFiles/cmTC_f6dca.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6dca.dir/UINT16_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f6dca.dir/UINT16_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/UINT16_T_LIBZIP.c
+Linking C executable cmTC_f6dca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6dca.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f6dca.dir/UINT16_T_LIBZIP.c.o  -o cmTC_f6dca -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d7ff6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d7ff6.dir/build.make CMakeFiles/cmTC_d7ff6.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7ff6.dir/INT32_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d7ff6.dir/INT32_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/INT32_T_LIBZIP.c
+Linking C executable cmTC_d7ff6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7ff6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d7ff6.dir/INT32_T_LIBZIP.c.o  -o cmTC_d7ff6 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f2660/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f2660.dir/build.make CMakeFiles/cmTC_f2660.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2660.dir/UINT32_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f2660.dir/UINT32_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/UINT32_T_LIBZIP.c
+Linking C executable cmTC_f2660
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2660.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f2660.dir/UINT32_T_LIBZIP.c.o  -o cmTC_f2660 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d3635/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d3635.dir/build.make CMakeFiles/cmTC_d3635.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3635.dir/INT64_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d3635.dir/INT64_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/INT64_T_LIBZIP.c
+Linking C executable cmTC_d3635
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3635.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d3635.dir/INT64_T_LIBZIP.c.o  -o cmTC_d3635 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fb056/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fb056.dir/build.make CMakeFiles/cmTC_fb056.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb056.dir/UINT64_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fb056.dir/UINT64_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/UINT64_T_LIBZIP.c
+Linking C executable cmTC_fb056
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb056.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fb056.dir/UINT64_T_LIBZIP.c.o  -o cmTC_fb056 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ef07c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ef07c.dir/build.make CMakeFiles/cmTC_ef07c.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef07c.dir/SHORT_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ef07c.dir/SHORT_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/SHORT_LIBZIP.c
+Linking C executable cmTC_ef07c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef07c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ef07c.dir/SHORT_LIBZIP.c.o  -o cmTC_ef07c -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a2b6d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a2b6d.dir/build.make CMakeFiles/cmTC_a2b6d.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2b6d.dir/INT_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a2b6d.dir/INT_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/INT_LIBZIP.c
+Linking C executable cmTC_a2b6d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2b6d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a2b6d.dir/INT_LIBZIP.c.o  -o cmTC_a2b6d -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2fbf2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2fbf2.dir/build.make CMakeFiles/cmTC_2fbf2.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fbf2.dir/LONG_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2fbf2.dir/LONG_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/LONG_LIBZIP.c
+Linking C executable cmTC_2fbf2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fbf2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2fbf2.dir/LONG_LIBZIP.c.o  -o cmTC_2fbf2 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3598a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3598a.dir/build.make CMakeFiles/cmTC_3598a.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3598a.dir/LONG_LONG_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3598a.dir/LONG_LONG_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/LONG_LONG_LIBZIP.c
+Linking C executable cmTC_3598a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3598a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3598a.dir/LONG_LONG_LIBZIP.c.o  -o cmTC_3598a -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_36145/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_36145.dir/build.make CMakeFiles/cmTC_36145.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36145.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_36145.dir/SIZEOF_OFF_T.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_36145
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36145.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_36145.dir/SIZEOF_OFF_T.c.o  -o cmTC_36145 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fd660/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fd660.dir/build.make CMakeFiles/cmTC_fd660.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd660.dir/SIZE_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fd660.dir/SIZE_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/SIZE_T_LIBZIP.c
+Linking C executable cmTC_fd660
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd660.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fd660.dir/SIZE_T_LIBZIP.c.o  -o cmTC_fd660 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1a725/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1a725.dir/build.make CMakeFiles/cmTC_1a725.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a725.dir/SSIZE_T_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1a725.dir/SSIZE_T_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/SSIZE_T_LIBZIP.c
+Linking C executable cmTC_1a725
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a725.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1a725.dir/SSIZE_T_LIBZIP.c.o  -o cmTC_1a725 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_21aaa/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_21aaa.dir/build.make CMakeFiles/cmTC_21aaa.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21aaa.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_21aaa.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_21aaa
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21aaa.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_21aaa.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_21aaa -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_64f87/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_64f87.dir/build.make CMakeFiles/cmTC_64f87.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64f87.dir/TestEndianess.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_64f87.dir/TestEndianess.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_64f87
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f87.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_64f87.dir/TestEndianess.c.o  -o cmTC_64f87 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the BZ2_bzCompressInit exist passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_31cad/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_31cad.dir/build.make CMakeFiles/cmTC_31cad.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31cad.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_31cad.dir/CheckSymbolExists.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_31cad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31cad.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_31cad.dir/CheckSymbolExists.c.o  -o cmTC_31cad -rdynamic /usr/lib64/libbz2.so 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+File /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <bzlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef BZ2_bzCompressInit
+  return ((int*)(&BZ2_bzCompressInit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_075d7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_075d7.dir/build.make CMakeFiles/cmTC_075d7.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_075d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTC_075d7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_075d7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_075d7.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt    CMakeFiles/cmTC_075d7.dir/CheckFunctionExists.c.o  -o cmTC_075d7 -rdynamic 
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/zipcmp.dir/zipcmp.c.o  -o zipcmp -rdynamic ../lib/libzip.so.5.0 -lz -lbz2 -lssl -lcrypto -Wl,-rpath,/soft/libzip-1.5.1/build/lib: 

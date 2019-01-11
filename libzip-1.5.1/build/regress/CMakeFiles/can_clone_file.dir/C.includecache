@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/soft/libzip-1.5.1/regress/can_clone_file.c
+errno.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+config.h
+/soft/libzip-1.5.1/regress/config.h
+sys/attr.h
+-
+sys/mount.h
+-
+sys/param.h
+-
+unistd.h
+-
+linux/fs.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+
+regress/../config.h
+zipconf.h
+regress/../zipconf.h
+
+regress/../zipconf.h
+stdint.h
+-
+

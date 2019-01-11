@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/soft/cmake-3.6.2/Utilities/cmcompress/cmcompress.c
+cmcompress.h
+/soft/cmake-3.6.2/Utilities/cmcompress/cmcompress.h
+errno.h
+-
+string.h
+-
+
+/soft/cmake-3.6.2/Utilities/cmcompress/cmcompress.h
+stdio.h
+-
+

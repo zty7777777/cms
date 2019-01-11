@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/add_from_filep.dir/add_from_filep.c.o  -o add_from_filep -rdynamic ../lib/libzip.so.5.0 -lz -lbz2 -lssl -lcrypto -Wl,-rpath,/soft/libzip-1.5.1/build/lib 

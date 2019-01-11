@@ -1,0 +1,668 @@
+Determining if files CommonCrypto/CommonCrypto.h exist failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_41ece/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_41ece.dir/build.make CMakeFiles/cmTC_41ece.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41ece.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_41ece.dir/CheckIncludeFiles.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:39: fatal error: CommonCrypto/CommonCrypto.h: No such file or directory
+ #include <CommonCrypto/CommonCrypto.h>
+                                       ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_41ece.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_41ece/fast] Error 2
+
+Source:
+/* */
+#include <CommonCrypto/CommonCrypto.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _chmod exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d5be1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d5be1.dir/build.make CMakeFiles/cmTC_d5be1.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5be1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_chmod   -o CMakeFiles/cmTC_d5be1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5be1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5be1.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_chmod    CMakeFiles/cmTC_d5be1.dir/CheckFunctionExists.c.o  -o cmTC_d5be1 -rdynamic 
+CMakeFiles/cmTC_d5be1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_chmod'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_d5be1] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_d5be1/fast] Error 2
+
+
+Determining if the function _close exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a6d1a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a6d1a.dir/build.make CMakeFiles/cmTC_a6d1a.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6d1a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_close   -o CMakeFiles/cmTC_a6d1a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a6d1a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6d1a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_close    CMakeFiles/cmTC_a6d1a.dir/CheckFunctionExists.c.o  -o cmTC_a6d1a -rdynamic 
+CMakeFiles/cmTC_a6d1a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_close'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_a6d1a] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_a6d1a/fast] Error 2
+
+
+Determining if the function _dup exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c9b3a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c9b3a.dir/build.make CMakeFiles/cmTC_c9b3a.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9b3a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_dup   -o CMakeFiles/cmTC_c9b3a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9b3a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9b3a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_dup    CMakeFiles/cmTC_c9b3a.dir/CheckFunctionExists.c.o  -o cmTC_c9b3a -rdynamic 
+CMakeFiles/cmTC_c9b3a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_dup'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c9b3a] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c9b3a/fast] Error 2
+
+
+Determining if the function _fdopen exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3dc97/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3dc97.dir/build.make CMakeFiles/cmTC_3dc97.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dc97.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_fdopen   -o CMakeFiles/cmTC_3dc97.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3dc97
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dc97.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fdopen    CMakeFiles/cmTC_3dc97.dir/CheckFunctionExists.c.o  -o cmTC_3dc97 -rdynamic 
+CMakeFiles/cmTC_3dc97.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_fdopen'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_3dc97] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_3dc97/fast] Error 2
+
+
+Determining if the function _fileno exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b05ee/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b05ee.dir/build.make CMakeFiles/cmTC_b05ee.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b05ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_fileno   -o CMakeFiles/cmTC_b05ee.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b05ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b05ee.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fileno    CMakeFiles/cmTC_b05ee.dir/CheckFunctionExists.c.o  -o cmTC_b05ee -rdynamic 
+CMakeFiles/cmTC_b05ee.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_fileno'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_b05ee] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_b05ee/fast] Error 2
+
+
+Determining if the function _open exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_172a4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_172a4.dir/build.make CMakeFiles/cmTC_172a4.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_172a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_open   -o CMakeFiles/cmTC_172a4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_172a4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_172a4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_open    CMakeFiles/cmTC_172a4.dir/CheckFunctionExists.c.o  -o cmTC_172a4 -rdynamic 
+CMakeFiles/cmTC_172a4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_open'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_172a4] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_172a4/fast] Error 2
+
+
+Determining if the function _setmode exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_19826/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_19826.dir/build.make CMakeFiles/cmTC_19826.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19826.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_setmode   -o CMakeFiles/cmTC_19826.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19826
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19826.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_setmode    CMakeFiles/cmTC_19826.dir/CheckFunctionExists.c.o  -o cmTC_19826 -rdynamic 
+CMakeFiles/cmTC_19826.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_setmode'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_19826] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_19826/fast] Error 2
+
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f0486/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f0486.dir/build.make CMakeFiles/cmTC_f0486.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0486.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_snprintf   -o CMakeFiles/cmTC_f0486.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0486
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0486.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_snprintf    CMakeFiles/cmTC_f0486.dir/CheckFunctionExists.c.o  -o cmTC_f0486 -rdynamic 
+CMakeFiles/cmTC_f0486.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_snprintf'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_f0486] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_f0486/fast] Error 2
+
+
+Determining if the function _strdup exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ca090/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ca090.dir/build.make CMakeFiles/cmTC_ca090.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca090.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_strdup   -o CMakeFiles/cmTC_ca090.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca090
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca090.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup    CMakeFiles/cmTC_ca090.dir/CheckFunctionExists.c.o  -o cmTC_ca090 -rdynamic 
+CMakeFiles/cmTC_ca090.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_strdup'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_ca090] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ca090/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_39f9a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_39f9a.dir/build.make CMakeFiles/cmTC_39f9a.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39f9a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_39f9a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39f9a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39f9a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stricmp    CMakeFiles/cmTC_39f9a.dir/CheckFunctionExists.c.o  -o cmTC_39f9a -rdynamic 
+CMakeFiles/cmTC_39f9a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_39f9a] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_39f9a/fast] Error 2
+
+
+Determining if the function _strtoi64 exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_eaf9b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_eaf9b.dir/build.make CMakeFiles/cmTC_eaf9b.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eaf9b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_strtoi64   -o CMakeFiles/cmTC_eaf9b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eaf9b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaf9b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strtoi64    CMakeFiles/cmTC_eaf9b.dir/CheckFunctionExists.c.o  -o cmTC_eaf9b -rdynamic 
+CMakeFiles/cmTC_eaf9b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_strtoi64'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_eaf9b] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_eaf9b/fast] Error 2
+
+
+Determining if the function _strtoui64 exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c6b9b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c6b9b.dir/build.make CMakeFiles/cmTC_c6b9b.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6b9b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_strtoui64   -o CMakeFiles/cmTC_c6b9b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6b9b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b9b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strtoui64    CMakeFiles/cmTC_c6b9b.dir/CheckFunctionExists.c.o  -o cmTC_c6b9b -rdynamic 
+CMakeFiles/cmTC_c6b9b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_strtoui64'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c6b9b] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c6b9b/fast] Error 2
+
+
+Determining if the function _umask exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ea370/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ea370.dir/build.make CMakeFiles/cmTC_ea370.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea370.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_umask   -o CMakeFiles/cmTC_ea370.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea370
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea370.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_umask    CMakeFiles/cmTC_ea370.dir/CheckFunctionExists.c.o  -o cmTC_ea370 -rdynamic 
+CMakeFiles/cmTC_ea370.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_umask'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_ea370] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ea370/fast] Error 2
+
+
+Determining if the function _unlink exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_67f43/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_67f43.dir/build.make CMakeFiles/cmTC_67f43.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67f43.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_unlink   -o CMakeFiles/cmTC_67f43.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67f43
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67f43.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_unlink    CMakeFiles/cmTC_67f43.dir/CheckFunctionExists.c.o  -o cmTC_67f43 -rdynamic 
+CMakeFiles/cmTC_67f43.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_unlink'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_67f43] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_67f43/fast] Error 2
+
+
+Determining if the function clonefile exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d2a67/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d2a67.dir/build.make CMakeFiles/cmTC_d2a67.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2a67.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=clonefile   -o CMakeFiles/cmTC_d2a67.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d2a67
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2a67.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clonefile    CMakeFiles/cmTC_d2a67.dir/CheckFunctionExists.c.o  -o cmTC_d2a67 -rdynamic 
+CMakeFiles/cmTC_d2a67.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `clonefile'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_d2a67] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_d2a67/fast] Error 2
+
+
+Determining if the function explicit_bzero exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_33722/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_33722.dir/build.make CMakeFiles/cmTC_33722.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33722.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=explicit_bzero   -o CMakeFiles/cmTC_33722.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_33722
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33722.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_bzero    CMakeFiles/cmTC_33722.dir/CheckFunctionExists.c.o  -o cmTC_33722 -rdynamic 
+CMakeFiles/cmTC_33722.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `explicit_bzero'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_33722] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_33722/fast] Error 2
+
+
+Determining if the function explicit_memset exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_05eea/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_05eea.dir/build.make CMakeFiles/cmTC_05eea.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05eea.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=explicit_memset   -o CMakeFiles/cmTC_05eea.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_05eea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05eea.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_memset    CMakeFiles/cmTC_05eea.dir/CheckFunctionExists.c.o  -o cmTC_05eea -rdynamic 
+CMakeFiles/cmTC_05eea.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `explicit_memset'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_05eea] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_05eea/fast] Error 2
+
+
+Determining if the function getprogname exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_39189/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_39189.dir/build.make CMakeFiles/cmTC_39189.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39189.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=getprogname   -o CMakeFiles/cmTC_39189.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39189
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39189.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getprogname    CMakeFiles/cmTC_39189.dir/CheckFunctionExists.c.o  -o cmTC_39189 -rdynamic 
+CMakeFiles/cmTC_39189.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `getprogname'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_39189] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_39189/fast] Error 2
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c3376/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c3376.dir/build.make CMakeFiles/cmTC_c3376.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3376.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=setmode   -o CMakeFiles/cmTC_c3376.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3376
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3376.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setmode    CMakeFiles/cmTC_c3376.dir/CheckFunctionExists.c.o  -o cmTC_c3376 -rdynamic 
+CMakeFiles/cmTC_c3376.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c3376] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c3376/fast] Error 2
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5ba87/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5ba87.dir/build.make CMakeFiles/cmTC_5ba87.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ba87.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=stricmp   -o CMakeFiles/cmTC_5ba87.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ba87
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ba87.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stricmp    CMakeFiles/cmTC_5ba87.dir/CheckFunctionExists.c.o  -o cmTC_5ba87 -rdynamic 
+CMakeFiles/cmTC_5ba87.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `stricmp'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_5ba87] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_5ba87/fast] Error 2
+
+
+Determining size of __int8 failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ef759/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ef759.dir/build.make CMakeFiles/cmTC_ef759.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef759.dir/__INT8_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ef759.dir/__INT8_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:17:22: error: ‘__int8’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int8))
+                      ^
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_ef759.dir/__INT8_LIBZIP.c.o] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ef759/fast] Error 2
+
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_69f2c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_69f2c.dir/build.make CMakeFiles/cmTC_69f2c.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69f2c.dir/__INT16_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_69f2c.dir/__INT16_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:17:22: error: ‘__int16’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int16))
+                      ^
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_69f2c.dir/__INT16_LIBZIP.c.o] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_69f2c/fast] Error 2
+
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b2929/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b2929.dir/build.make CMakeFiles/cmTC_b2929.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2929.dir/__INT32_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b2929.dir/__INT32_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:17:22: error: ‘__int32’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int32))
+                      ^
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_b2929.dir/__INT32_LIBZIP.c.o] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_b2929/fast] Error 2
+
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9eef8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9eef8.dir/build.make CMakeFiles/cmTC_9eef8.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9eef8.dir/__INT64_LIBZIP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9eef8.dir/__INT64_LIBZIP.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_9eef8.dir/__INT64_LIBZIP.c.o] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_9eef8/fast] Error 2
+
+/soft/libzip-1.5.1/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test HAVE_FICLONERANGE failed with the following output:
+Change Dir: /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1a7ea/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1a7ea.dir/build.make CMakeFiles/cmTC_1a7ea.dir/build
+gmake[1]: Entering directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a7ea.dir/src.c.o
+/usr/bin/cc    -DHAVE_FICLONERANGE   -o CMakeFiles/cmTC_1a7ea.dir/src.c.o   -c /soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/src.c
+/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/src.c:3:54: error: ‘FICLONERANGE’ undeclared (first use in this function)
+ int main(int argc, char *argv[]) { unsigned long x = FICLONERANGE; }
+                                                      ^
+/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp/src.c:3:54: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_1a7ea.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/soft/libzip-1.5.1/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_1a7ea/fast] Error 2
+
+Source file was:
+#include <sys/ioctl.h>
+#include <linux/fs.h>
+int main(int argc, char *argv[]) { unsigned long x = FICLONERANGE; }
